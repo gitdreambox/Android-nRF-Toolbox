@@ -192,7 +192,16 @@
 				<category android:name="no.nordicsemi.android.nrftoolbox.LAUNCHER" />
 			</intent-filter>
 		</activity>
+		<activity
+			android:name=".gizwits.GizwitsActivity"
+			android:icon="@drawable/ic_gizwits_feature"
+			android:label="@string/gizwits_feature_title" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
 
+				<category android:name="no.nordicsemi.android.nrftoolbox.LAUNCHER" />
+			</intent-filter>
+		</activity>
 		<service
 			android:name="no.nordicsemi.android.nrftoolbox.proximity.ProximityService"
 			android:label="@string/proximity_feature_title" />

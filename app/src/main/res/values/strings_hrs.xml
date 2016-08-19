@@ -22,7 +22,7 @@
   -->
 <resources>
     <string name="hrs_feature_title">HRM</string>
-    
+    <string name="gizwits_feature_title">Giz</string>
     <string name="hrs_feature_title_long">HEART RATE MONITOR</string>
     <dimen name="hrs_feature_title_long_margin">-152dp</dimen>
     
